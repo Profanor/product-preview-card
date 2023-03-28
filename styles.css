@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/montserrat/Montserrat-Black.otf');
+}
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+.parent {
+    border-radius: 10px;
+    background-color: hsl(30, 38%, 92%);
+    margin: 30px auto;
+    width: 700px;
+    height: 900px;
+}
+.flex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+}
+.image {
+    background-image: url('/images/image-product-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+    height: 600px;
+    margin: 150px auto;
+    width: 400px;
+}
+.right {
+    border-radius: 10px;
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 1px;
+    background-color: white;
+    height: 550px;
+    margin: 150px auto;
+    width: 300px;
+    padding: 25px;
+}
+h1 {
+    color: rgba(133, 121, 121, 0.644);
+    float:left;
+    font-size: 14px;
+    font-weight: 100;
+    font-family: 'Montserrat'
+}
+h2 {
+    font-weight: 800;
+    font-size: 40px;
+}
+p {
+    color: rgba(133, 121, 121, 0.644);
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn {
+    border: none;
+    border-radius: 10px;
+    color: white;
+    height: 50px;
+    width: 90%;
+    background: hsl(158, 36%, 37%);
+    cursor: pointer;
+}
+.but {
+    display: flex;
+    font-size: 15px;
+    font-weight: 700;
+    flex-wrap: nowrap;
+    align-items: center; 
+    justify-content: center; 
+    color: white;
+}
+.flex2 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: left; 
+    align-items: center;
+    vertical-align: middle;
+}
+.funds {
+    color:hsl(158, 36%, 37%);
+    font-size: 43px;
+    font-weight: 800;
+}
+.small {
+    color: rgba(133, 121, 121, 0.644);
+    font-size: 15px;
+    justify-content: center;
+    vertical-align: middle;
+    padding: 10px;
+}
