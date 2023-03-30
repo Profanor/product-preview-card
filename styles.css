@@ -5,7 +5,7 @@
 }
 @font-face {
     font-family: 'Montserrat';
-    src: url('/montserrat/Montserrat-Black.otf');
+    src: url('Montserrat-Black.otf');
     src: url('/static/Fraunces_9pt/Fraunces_9pt-Black.ttf');
 }
 body {
@@ -26,7 +26,7 @@ body {
     align-items: stretch;
 }
 .image {
-    background-image: url('/images/image-product-desktop.jpg');
+    background-image: url('image-product-desktop.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
