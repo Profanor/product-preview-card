@@ -6,7 +6,7 @@
 @font-face {
     font-family: 'Montserrat';
     src: url('Montserrat-Black.otf');
-    src: url('/static/Fraunces_9pt/Fraunces_9pt-Black.ttf');
+    src: url('Fraunces_9pt-Black.ttf');
 }
 body {
     background-color: hsl(30, 38%, 92%);
