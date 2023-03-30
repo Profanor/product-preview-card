@@ -1,6 +1,12 @@
+@media (min-width: 375px) {
+    .parent, .flex {
+        flex-direction: column;        
+    }
+}
 @font-face {
     font-family: 'Montserrat';
     src: url('/montserrat/Montserrat-Black.otf');
+    src: url('/static/Fraunces_9pt/Fraunces_9pt-Black.ttf');
 }
 body {
     background-color: hsl(30, 38%, 92%);
@@ -15,6 +21,7 @@ body {
 .flex {
     display: flex;
     flex-wrap: nowrap;
+    flex-direction: row;
     justify-content: center;
     align-items: stretch;
 }
@@ -43,17 +50,20 @@ h1 {
     color: rgba(133, 121, 121, 0.644);
     float:left;
     font-size: 14px;
-    font-weight: 100;
-    font-family: 'Montserrat'
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
 }
 h2 {
     font-weight: 800;
     font-size: 40px;
+    font-family: 'Montserrat';
 }
 p {
-    color: rgba(133, 121, 121, 0.644);
+    color: rgba(58, 52, 52, 0.644);
     font-size: 18px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 30px;
 }
 .btn {
     border: none;
@@ -63,6 +73,9 @@ p {
     width: 90%;
     background: hsl(158, 36%, 37%);
     cursor: pointer;
+}
+.btn:hover {
+    background: hsl(158, 94%, 19%);
 }
 .but {
     display: flex;
@@ -82,12 +95,13 @@ p {
 }
 .funds {
     color:hsl(158, 36%, 37%);
-    font-size: 43px;
-    font-weight: 800;
+    font-size: 40px;
+    font-family: 'Montserrat';
 }
 .small {
     color: rgba(133, 121, 121, 0.644);
     font-size: 15px;
+    font-family: 'Montserrat';
     justify-content: center;
     vertical-align: middle;
     padding: 10px;
